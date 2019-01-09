@@ -3,6 +3,7 @@ Author: Liang-Shih Lin
 Description: A file containing variables representing my favourite song.
 """
 
+# Homework 1
 # Details of the song
 Name = "What A Catch, Donnie"
 Artist = "Fall Out Boy"
@@ -29,6 +30,27 @@ ProducedBy = "Neal Avron"
 print(Name)
 print(Artist)
 print(Album)
+print(Genre)
+print(Year)
 print(Duration)
 print(WrittenBy)
 print(ProducedBy)
+
+# Homework 2
+
+def genre():
+    return Genre
+
+def artist():
+    return Artist
+
+def year():
+    return Year
+
+def favourite():
+    return True
+
+print(genre())
+print(artist())
+print(year())
+print(favourite())
